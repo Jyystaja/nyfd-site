@@ -140,7 +140,7 @@ body{
 
 .aboutus h2{
 	opacity: 1; /* 20% transparent background */
-	color:  rgb(0, 255, 64);
+	color:  rgba(0, 46, 133, 1);
 	font-size: 30px;
 	top: 30vh;
 	text-align: center;
@@ -196,15 +196,27 @@ body{
 	margin: 20px;
 	
 }
+.job_text h1{
+	position: relative;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+	color: white;
+	text-decoration: underline;
+	font-family: "Roboto", sans-serif;
+ 	font-weight: 500;
+ 	font-style: normal;
+	font-size: 32px;
+}
 .job_text h2{
 	position: relative;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
 	color: white;
+	line-height:20%;
 	text-decoration: solid;
 	font-family: "Roboto", sans-serif;
- 	font-weight: 500;
- 	font-style: normal;
-	font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+	font-size: 27px;
+
 }
 .job_text h3{
 	position: relative;
@@ -212,6 +224,7 @@ body{
 	color: white;
 	font-family: "Roboto", sans-serif;
  	font-weight: 500;
+	padding-bottom: 5%;
  	font-style: normal;
 	font-size: 25px;
 }

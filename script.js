@@ -109,6 +109,8 @@ function loadUserData() {
         return { success: false, userData: null };
     }
 }
-
+document.querySelectorAll('.clickable').forEach(element => {
+    element.addEventListener('click', clickHandler);
+  });
 
 
