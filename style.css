@@ -140,7 +140,7 @@ body{
 
 .aboutus h2{
 	opacity: 1; /* 20% transparent background */
-	color:  red;
+	color:  rgb(0, 255, 64);
 	font-size: 30px;
 	top: 30vh;
 	text-align: center;
